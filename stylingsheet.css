@@ -50,11 +50,13 @@ section {
 
 /* Style links (a elements) */
 a {
-    color: #AD03DE; /* Purple link color */
+    color: white; /* Purple link color */
     text-decoration: none; /* Remove underline from links */
+    font-weight: bold;
 }
 
 /* Change link color on hover */
 a:hover {
-    color: #800080; /* A darker purple color for hover effect */
+    color: #cccccc;  /* A darker purple color for hover effect */
+    
 }
