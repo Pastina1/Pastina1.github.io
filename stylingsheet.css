@@ -17,7 +17,7 @@ h1 {
 
 /* Style the introduction section */
 #intro {
-    background-color: #3498db; /* Placeholder background color */
+    background-color: #6FA2E8; /* Placeholder background color */
     color: #fff; /* Text color for this section */
     padding: 20px;
 }
@@ -29,22 +29,22 @@ section {
 
 /* Style individual project sections */
 #project1 {
-    background-color: #e74c3c; /* Placeholder background color */
+    background-color: #8A6FE8; /* Placeholder background color */
     color: #fff; /* Text color for this section */
 }
 
 #project2 {
-    background-color: #27ae60; /* Placeholder background color */
+    background-color: #6F7BE8; /* Placeholder background color */
     color: #fff; /* Text color for this section */
 }
 
 #project3 {
-    background-color: #f39c12; /* Placeholder background color */
+    background-color: #6FC8E8; /* Placeholder background color */
     color: #fff; /* Text color for this section */
 }
 
 #project4 {
-    background-color: #9b59b6; /* Placeholder background color */
+    background-color: #B26FE8; /* Placeholder background color */
     color: #fff; /* Text color for this section */
 }
 
