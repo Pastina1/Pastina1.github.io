@@ -5,7 +5,7 @@ body, h1, h2, ul {
 }
 
 img {
-    max-width: 100%; /* Ensure the image does not exceed the container's width */
+    max-width: 10%; /* Ensure the image does not exceed the container's width */
     display: block; /* Remove any text alignment issues */
     margin: 0 auto; /* Center the image horizontally */
 }
