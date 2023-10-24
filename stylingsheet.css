@@ -15,6 +15,13 @@ h1 {
     text-align: center;
 }
 
+#portfolio-title {
+    font-size: 2em; /* Adjust the size as needed */
+    text-align: center; /* Center the title horizontally */
+    margin-top: 20px; /* Add spacing from the top */
+    color: #333; /* Set the color for the title */
+}
+
 /* Style the introduction section */
 #intro {
     background-color: #6FA2E8; /* Placeholder background color */
