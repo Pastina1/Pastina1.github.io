@@ -70,6 +70,6 @@ a {
 
 /* Change link color on hover */
 a:hover {
-    color: #cccccc;  /* A darker purple color for hover effect */
+    color: grey  /* A darker purple color for hover effect */
     
 }
