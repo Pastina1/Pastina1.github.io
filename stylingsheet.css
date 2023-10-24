@@ -19,7 +19,7 @@ h1 {
     font-size: 3em; /* Adjust the size as needed */
     text-align: center; /* Center the title horizontally */
     margin-top: 20px; /* Add spacing from the top */
-    color: #333; /* Set the color for the title */
+    color: orange; /* Set the color for the title */
 }
 
 /* Style the introduction section */
