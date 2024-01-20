@@ -32,6 +32,7 @@ h1 {
 #intro {
     background-color: #6FA2E8; /* Placeholder background color */
     color: #fff; /* Text color for this section */
+    max-width: calc(100% - 20cm);
     padding: 20px;
 }
 
