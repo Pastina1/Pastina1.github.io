@@ -98,6 +98,17 @@ My project-based journey has been a rich source of learning and personal growth,
         <a href="https://fitquest.quest/">Link to the website here. Password is: kdH/3y#</a>
     </section>
     
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+      
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+      </script>
 
 </body>
 </html>
