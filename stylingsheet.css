@@ -35,6 +35,11 @@ section {
     padding: 20px;
 }
 
+.content-container {
+    max-width: 800px; /* Set the maximum width for the content */
+    margin: 0 auto; /* Center the content */
+}
+
 /* Style links (a elements) */
 a {
     color: rgb(48, 16, 230); /* Purple link color */
