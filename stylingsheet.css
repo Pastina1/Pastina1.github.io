@@ -13,7 +13,7 @@ img {
 
 /* Apply a background color to the whole page */
 body {
-    background-color: #f5f5f5; /* Placeholder background color */
+    background-color: #f8f8f8; /* Placeholder background color */
     font-family: Arial, sans-serif; /* Choose your preferred font */
 }
 
@@ -29,37 +29,9 @@ h1 {
     color: orange; /* Set the color for the title */
 }
 
-/* Style the introduction section */
-#intro {
-    background-color: #6FA2E8; /* Placeholder background color */
-    color: #fff; /* Text color for this section */
-    padding: 20px;
-}
-
 /* Apply a common style to project sections */
 section {
     padding: 20px;
-}
-
-/* Style individual project sections */
-#project1 {
-    background-color: #8A6FE8; /* Placeholder background color */
-    color: #fff; /* Text color for this section */
-}
-
-#project2 {
-    background-color: #6F7BE8; /* Placeholder background color */
-    color: #fff; /* Text color for this section */
-}
-
-#project3 {
-    background-color: #6FC8E8; /* Placeholder background color */
-    color: #fff; /* Text color for this section */
-}
-
-#project4 {
-    background-color: #B26FE8; /* Placeholder background color */
-    color: #fff; /* Text color for this section */
 }
 
 /* Style links (a elements) */
