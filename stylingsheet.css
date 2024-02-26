@@ -13,7 +13,7 @@ img {
 
 /* Apply a background color to the whole page */
 body {
-    background-color: #f8f8f8; /* Placeholder background color */
+    background-color: #7e7e7e; /* Placeholder background color */
     font-family: Arial, sans-serif; /* Choose your preferred font */
 }
 
@@ -37,7 +37,7 @@ section {
 
 /* Style links (a elements) */
 a {
-    color: white; /* Purple link color */
+    color: rgb(48, 16, 230); /* Purple link color */
     text-decoration: underline; 
     font-weight: bold;
 }
