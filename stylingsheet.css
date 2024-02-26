@@ -36,7 +36,7 @@ section {
 }
 
 .content-container {
-    max-width: 800px; /* Set the maximum width for the content */
+    max-width: 80px; /* Set the maximum width for the content */
     margin: 0 auto; /* Center the content */
 }
 
