@@ -50,7 +50,7 @@ const About = () => {
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
-                        <FontAwesomeIcon icon={faJava} color="#FF6600"/>
+                        <FontAwesomeIcon icon={faJava} color="#8B0000"/>
                     </div>
                     <div className='face2'>
                         <FontAwesomeIcon icon={faPython} color="#306998"/>
