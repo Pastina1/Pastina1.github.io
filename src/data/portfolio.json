@@ -1,29 +1,28 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/1.png",
-            "title": "Patient Management System",
-            "description": "Java",
-            "url": "https://github.com/Pastina1/Patient-Management"
-        },
-        {
             "cover": "/portfolio/1/pathout.png",
             "title": "PathOut",
-            "description": "Java and Kotlin",
-            "url": "https://github.com/Pastina1/PathOut",
-            "videourl": "https://www.youtube.com/watch?v=_pRg7BYPWus"
+            "description": "Kotlin, Android SDK, Firebase Authentication.",
+            "url": "https://github.com/Pastina1/PathOut"
         },
         {
-            "cover": "/portfolio/1/1.png",
+            "cover": "/portfolio/1/ipms.png",
             "title": "Insurance Policy Management",
-            "description": "Java, CSS, HTML",
+            "description": "Java, Spring Boot, JPA, Maven.",
             "url": "https://github.com/Pastina1/Insurance-Policy-Management"
         },
         {
             "cover": "/portfolio/1/fitquest.png",
             "title": "Fitquest",
-            "description": "WordPress, JavaScript, PHP.",
+            "description": "JavaScript, PHP, MySQL.",
             "url": "https://www.youtube.com/watch?v=KYYfLkJZWNM"
+        },
+        {
+            "cover": "/portfolio/1/selenium.png",
+            "title": "Automated Appointment Script",
+            "description": "Python, Selenium.",
+            "url": "https://github.com/Pastina1/appointment-automate-python"
         }
     ]
 }

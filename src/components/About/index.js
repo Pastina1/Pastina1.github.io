@@ -31,29 +31,35 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    As a Master of Information Technology graduate, I've delved into technology, teamwork, and constant learning, all driven by my love for software development. Across various projects, I've refined my skills, both solo and in teams, and I'm eager for fresh challenges. Leading and participating in significant app developments showcases my dedication to delivering useful solutions.
+                    As an Information Technology graduate, I've delved into technology, teamwork, and constant learning, all driven by my love for software development. Across various projects, I've refined my skills, both solo and in teams, and I'm eager for fresh challenges. Leading and participating in significant app developments showcases my dedication to delivering useful solutions.
                 </p>
                 <p>
                     Through a series of diverse and impactful projects, I've honed my skills, working both independently and in collaborative teams, and I'm excited to take on new challenges. I've led and participated in the development of several significant applications, demonstrating my commitment to delivering valuable solutions.
                 </p>
                 <p>
-                    Through projects, I've grown personally and professionally, and I'm enthusiastic about applying this experience to future innovative endeavors.
+                    Outside of my professional life I deeply value spending time with my friends and family. I also enjoy playing soccer, videogames, and going to the gym.
                 </p>
+
+                <div className="resume-button">
+                    <a href="/portfolio/1/Jesse Falla Resume.pdf" download>
+                        <button>DOWNLOAD MY RESUME</button>
+                    </a>
+                </div>
             </div>
 
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
-                        <FontAwesomeIcon icon={faJava} color="#DD0031"/>
+                        <FontAwesomeIcon icon={faJava} color="#FF6600"/>
                     </div>
                     <div className='face2'>
-                        <FontAwesomeIcon icon={faPython} color="#003151"/>
+                        <FontAwesomeIcon icon={faPython} color="#306998"/>
                     </div>
                     <div className='face3'>
                         <FontAwesomeIcon icon={faRProject} color="#28A4D9"/>
                     </div>
                     <div className='face4'>
-                        <FontAwesomeIcon icon={faReact} color="#5ED4F4"/>
+                    <FontAwesomeIcon icon={faSquareTerminal} color="#00008B"/>
                     </div>
                     <div className='face5'>
                         <FontAwesomeIcon icon={faJsSquare} color="#EFD81D"/>

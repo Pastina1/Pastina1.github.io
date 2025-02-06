@@ -3,24 +3,30 @@ import './index.scss'
 import LogoJ from '../../assets/images/logo-j.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome'
-import {faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
+import {faBars, faClose, faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { useState } from 'react'
 
-const Sidebar = () => (
+const Sidebar = () => {
+    const [showNav, setShowNav] = useState(false)
+
+    return (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             <img src={LogoJ} alt="logo" />
             <img className="sub-logo" src={LogoSubtitle} alt="Jesse" />
         </Link>
-        <nav>
-            <NavLink 
+        <nav className={showNav ? 'mobile-show' : ''}>
+            <NavLink
+            onClick={() => setShowNav(false)} 
             exact ="true" 
             activeclassname="active" 
             to="/"
             >
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
-            <NavLink 
+            <NavLink
+            onClick={() => setShowNav(false)} 
             exact ="true" 
             activeclassname="active" 
             className="about-link" 
@@ -28,7 +34,8 @@ const Sidebar = () => (
             >
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             </NavLink>
-            <NavLink 
+            <NavLink
+            onClick={() => setShowNav(false)} 
             exact ="true" 
             activeclassname="active" 
             className="portfolio-link" 
@@ -36,7 +43,8 @@ const Sidebar = () => (
             >
                 <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
             </NavLink>
-            <NavLink 
+            <NavLink
+            onClick={() => setShowNav(false)} 
             exact ="true" 
             activeclassname="active" 
             className="contact-link" 
@@ -44,6 +52,13 @@ const Sidebar = () => (
             >
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
+            <FontAwesomeIcon
+            onClick={() => setShowNav(false)}
+            icon={faClose}
+            color="#ffd700"
+            size="3x"
+            className='close-icon'
+            />
         </nav>
         <ul>
             <li>
@@ -65,7 +80,14 @@ const Sidebar = () => (
                 </a>
             </li>
         </ul>
+        <FontAwesomeIcon
+            onClick={() => setShowNav(true)}
+            icon={faBars}
+            color="#ffd700"
+            size="3x"
+            className='hamburger-icon' />
     </div>
-)
+    )
+}
 
 export default Sidebar

@@ -77,6 +77,7 @@
         }
 
         p {
+            font-size: 13px;
             font-style: 13px;
             color: #fff;
             font-family: sans-serif;
@@ -114,4 +115,60 @@
             color: #fff;
         }
     }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .page {
+        position: initial;
+    }
+
+    .container {
+        position: initial;
+        height: auto;
+        min-height: auto;
+
+        &.about-page,
+        &.contact-page,
+        &.portfolio-page {
+
+            .text-zone {
+                position: initial;
+                transform: none;
+                width: 100%;
+                display: block;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+        }
+
+        &.portfolio-page {
+            width:100%;
+            padding: 20px;
+            box-sizing: border-box;
+
+            h1.page-title {
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+
+            .images-container {
+                display: contents;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            .image-box {
+                height: 250px;
+                max-width: 100%;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            .description {
+                padding: 0 0 0 10px;
+            }
+        }
+    }
+
 }

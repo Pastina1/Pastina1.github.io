@@ -19,6 +19,7 @@ const Portfolio = () => {
     },
     [],
     );
+    
 
     const renderPortfolio = (portfolio) => {
         return (
