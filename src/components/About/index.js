@@ -59,7 +59,7 @@ const About = () => {
                         <FontAwesomeIcon icon={faRProject} color="#28A4D9"/>
                     </div>
                     <div className='face4'>
-                    <FontAwesomeIcon icon={faSquareTerminal} color="#00008B"/>
+                        <FontAwesomeIcon icon={faSquareTerminal} color="#00008B"/>
                     </div>
                     <div className='face5'>
                         <FontAwesomeIcon icon={faJsSquare} color="#EFD81D"/>
