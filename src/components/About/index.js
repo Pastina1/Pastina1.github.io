@@ -1,13 +1,17 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faJava, faJsSquare, faPython, faRProject } from '@fortawesome/free-brands-svg-icons'
 import { faTerminal } from '@fortawesome/free-solid-svg-icons';
 import Loader from 'react-loaders'
 
+
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
+    const [isRecaptchaCompleted, setIsRecaptchaCompleted] = useState(false)
+    const recaptcha = useRef()
+    const siteKey = process.env.REACT_APP_SITE_KEY;
 
     useEffect(() => {
         const t = setTimeout(() => {
@@ -19,6 +23,12 @@ const About = () => {
     },
     [],
     );
+
+    const handleRecaptchaChange = (value) => {
+        if (value) {
+            setIsRecaptchaCompleted(true);
+        }
+    };
 
     return (
         <>
@@ -40,12 +50,6 @@ const About = () => {
                 <p>
                     Outside of my professional life I deeply value spending time with my friends and family. I also enjoy playing soccer, videogames, and going to the gym.
                 </p>
-
-                <div className="resume-button">
-                    <a href="/portfolio/1/Jesse Falla Resume.pdf" download>
-                        <button>DOWNLOAD MY RESUME</button>
-                    </a>
-                </div>
             </div>
 
             <div className='stage-cube-cont'>

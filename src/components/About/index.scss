@@ -9,29 +9,6 @@
     overflow: hidden;
 }
 
-.resume-button button{
-    color: #ffd700;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    font-family: sans-serif;
-    text-decoration: none;
-    padding: 10px 18px;
-    border: 1px solid #ffd700;
-    float: left;
-    animation: fadeIn 1s 1.8s backwards;
-    white-space: nowrap;
-    background: transparent;
-    cursor: pointer;
-
-    &:hover {
-        background:#ffd700;
-        color:#333;
-        cursor: pointer;
-    }
-
-}
-
 .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
